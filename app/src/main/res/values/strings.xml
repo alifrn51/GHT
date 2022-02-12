@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Chromatech</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="reports">Reports</string>
+    <string name="notification">Notification</string>
+    <string name="setting">Setting</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="get_started">Get started</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+</resources>

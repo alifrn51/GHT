@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="CustomBottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/color_navigation_item</item>
+        <item name="android:background">?colorOnPrimary</item>
+        <item name="itemTextAppearanceActive">@style/text_navigation_active_labels</item>
+    </style>
+
+    <style name="text_navigation_active_labels">
+        <item name="android:breakStrategy" tools:ignore="NewApi">simple</item>
+        <item name="android:hyphenationFrequency" tools:ignore="NewApi">none</item>
+    </style>
+
+
+</resources>
