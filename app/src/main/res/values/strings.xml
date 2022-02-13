@@ -18,4 +18,32 @@
     <string name="welcome_to">Welcome to</string>
     <string name="sign_up">Sign Up</string>
     <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="registration">Registration</string>
+    <string name="choose_your_mode">Choose your Mode.</string>
+    <string name="personal">Personal</string>
+    <string name="clinic">Clinic</string>
+    <string name="f_name">First Name</string>
+    <string name="l_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+
+    <string name="disease_diabet">Diabet disease</string>
+    <string name="disease_diabet1">Glucose (GLU)</string>
+
+    <string name="disease_heart">Heart disease</string>
+    <string name="disease_heart1">Urea\nCreatinine (CRE)</string>
+
+    <string name="disease_renal">Renal Diabetes</string>
+    <string name="disease_renal1">Tryglicirides (TG) \nCholesterol (CHO)\nLDL\nHDL</string>
+    <string name="underlying_disease">Underlying disease</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="do_you_want_to_share_test_info">Do you want to share test information with someone else?</string>
+    <string name="your_viewer">Your viewer</string>
+    <string name="lets_go">Lets go</string>
 </resources>

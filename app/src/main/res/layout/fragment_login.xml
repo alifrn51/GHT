@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/_16mdp"
-            android:text="@string/sign_up"
+            android:text="@string/login"
             android:textAppearance="?textAppearanceHeadline3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginVertical="@dimen/_16mdp"
-            android:src="@drawable/img_signup"
+            android:src="@drawable/img_login"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_16mdp"
             android:orientation="vertical"
-            app:layout_constraintBottom_toTopOf="@+id/btn_signup"
+            app:layout_constraintBottom_toTopOf="@+id/btn_login"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
@@ -80,20 +80,6 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/textFieldConfirmPass"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:hint="@string/confirm_password"
-                app:endIconMode="password_toggle">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="textPassword" />
-
-            </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
                 android:id="@+id/txtForgotPass"
@@ -109,20 +95,20 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/btn_signup"
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginHorizontal="@dimen/_16mdp"
             android:layout_marginBottom="@dimen/_8mdp"
-            android:text="@string/sign_up"
-            app:layout_constraintBottom_toTopOf="@+id/txtAlreadyAccount"
+            android:text="@string/login"
+            app:layout_constraintBottom_toTopOf="@+id/txtDoNotAccount"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
 
         <LinearLayout
-            android:id="@+id/txtAlreadyAccount"
+            android:id="@+id/txtDoNotAccount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
@@ -135,7 +121,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/already_have_an_account"
+                android:text="@string/don_t_have_an_account"
                 android:textAppearance="?textAppearanceBody1"
                 android:textColor="?colorPrimary" />
 
@@ -143,7 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_8mdp"
-                android:text="@string/login"
+                android:text="@string/sign_up"
                 android:textAppearance="?textAppearanceBody1"
                 android:textColor="?colorPrimaryVariant" />
 

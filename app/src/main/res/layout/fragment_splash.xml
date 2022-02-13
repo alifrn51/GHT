@@ -6,8 +6,7 @@
 
     <ImageView
         android:src="@drawable/logo"
-        android:layout_width="match_parent"
-        android:layout_margin="120dp"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:text="@string/notification"
         android:layout_gravity="center"/>

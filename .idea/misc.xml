@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/drawable/checkbox_selector.xml" value="0.290625" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/activity_auth.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/fragment_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/fragment_registration_one.xml" value="0.176" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/fragment_registration_two.xml" value="0.264" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/fragment_share_info.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/fragment_share_info_person.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/fragment_signup.xml" value="0.264" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/fragment_signup2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/fragment_splash.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/fragment_welcome.xml" value="0.264" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/item_disease.xml" value="0.4" />
+        <entry key="..\:/Users/alifo/AndroidStudioProjects/GHT/app/src/main/res/layout/list_text.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/foroozan/AndroidStudioProjects/Chromatech/app/src/main/res/drawable-hdpi/selector_et_input.xml" value="0.3435" />
         <entry key="..\:/Users/foroozan/AndroidStudioProjects/Chromatech/app/src/main/res/drawable/ic_arrow_down.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/foroozan/AndroidStudioProjects/Chromatech/app/src/main/res/drawable/ic_arrow_right.xml" value="0.37864583333333335" />
@@ -37,7 +50,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.67" />
+        <option name="scale" value="0.4" />
       </ProjectState>
     </option>
   </component>

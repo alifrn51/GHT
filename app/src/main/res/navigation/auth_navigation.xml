@@ -1,15 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/auth_navigation"
-    app:startDestination="@id/signupFragment">
+    app:startDestination="@id/splashFragment">
+
 
     <fragment
-        android:id="@+id/dashboardFragment2"
-        android:name="com.ght.chromatech.feature.dashboard.DashboardFragment"
-        android:label="DashboardFragment" />
-    <fragment
+        tools:layout="@layout/fragment_signup"
         android:id="@+id/signupFragment"
         android:name="com.ght.chromatech.feature.auth.signUp.SignupFragment"
-        android:label="SignupFragment" />
+        android:label="SignupFragment" >
+        <action
+            android:id="@+id/action_signupFragment_to_registrationOneFragment"
+            app:destination="@id/registrationOneFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_splash"
+        android:id="@+id/splashFragment"
+        android:name="com.ght.chromatech.feature.auth.splash.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_welcome"
+            app:destination="@id/welcome" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_login"
+        android:id="@+id/loginFragment"
+        android:name="com.ght.chromatech.feature.auth.login.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_registration_one"
+        android:id="@+id/registrationOneFragment"
+        android:name="com.ght.chromatech.feature.auth.registration.RegistrationOneFragment"
+        android:label="RegistrationOneFragment" >
+        <action
+            android:id="@+id/action_registrationOneFragment_to_registrationTwoFragment"
+            app:destination="@id/registrationTwoFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_registration_two"
+        android:id="@+id/registrationTwoFragment"
+        android:name="com.ght.chromatech.feature.auth.registration.RegistrationTwoFragment"
+        android:label="RegistrationTwoFragment" >
+        <action
+            android:id="@+id/action_registrationTwoFragment_to_shareInfoFragment"
+            app:destination="@id/shareInfoFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_share_info"
+        android:id="@+id/shareInfoFragment"
+        android:name="com.ght.chromatech.feature.auth.shareInfo.ShareInfoFragment"
+        android:label="ShareInfoFragment" >
+        <action
+            android:id="@+id/action_shareInfoFragment_to_viewerFragment"
+            app:destination="@id/viewerFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_share_your_viewer"
+        android:id="@+id/viewerFragment"
+        android:name="com.ght.chromatech.feature.auth.viewer.ViewerFragment"
+        android:label="ViewerFragment" />
+    <fragment
+        tools:layout="@layout/fragment_welcome"
+        android:id="@+id/welcome"
+        android:name="com.ght.chromatech.feature.auth.welcome.Welcome"
+        android:label="Welcome" >
+        <action
+            android:id="@+id/action_welcome_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
 </navigation>

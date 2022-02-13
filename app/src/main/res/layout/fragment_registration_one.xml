@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_margin="@dimen/_16mdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:text="@string/registration"
+                android:textAppearance="?textAppearanceHeadline3" />
+
+            <ImageView
+                android:layout_width="@dimen/_66mdp"
+                android:layout_height="@dimen/_66mdp"
+                android:layout_gravity="end"
+                android:src="@drawable/logo" />
+        </FrameLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginHorizontal="@dimen/_16mdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_48mdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose_your_mode"
+                    android:textAppearance="?textAppearanceHeadline6" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cart_personal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16mdp"
+                    app:cardBackgroundColor="?bgCartGreen">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="@dimen/_16mdp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:text="@string/personal"
+                            android:textAppearance="?textAppearanceHeadline6" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_110mdp"
+                            android:layout_height="@dimen/_110mdp"
+                            android:layout_gravity="end"
+                            android:src="@drawable/img_personal" />
+                    </FrameLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cart_clinical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16mdp"
+                    app:cardBackgroundColor="?bgCartGreen">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="@dimen/_16mdp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:text="@string/clinic"
+                            android:textAppearance="?textAppearanceHeadline6" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_110mdp"
+                            android:layout_height="@dimen/_110mdp"
+                            android:layout_gravity="end"
+                            android:src="@drawable/img_clinical" />
+                    </FrameLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/_16mdp"
+        android:text="@string/registration" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

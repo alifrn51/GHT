@@ -12,17 +12,16 @@
 
         <item name="colorSurface">@color/gray_melow</item>
         <item name="colorOnSurface">?colorPrimary</item>
-        <!-- Status bar color. --><!--
+        <!-- Status bar color. -->
+        <!--
         <item name="fontFamily">@font/raleway_medium</item>
-        <item name="android:fontFamily">@font/raleway_medium</item>-->
+        <item name="android:fontFamily">@font/raleway_medium</item>
+        -->
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
 
         <item name="bottomNavigationStyle">@style/CustomBottomNavigation</item>
-
-
-        <!-- Customize your theme here. -->
 
         <!--Material type attributes-->
         <item name="textAppearanceHeadline1">@style/TextAppearance.MyTheme.Headline1</item>
@@ -40,15 +39,38 @@
         <item name="textAppearanceOverline">@style/TextAppearance.MyTheme.Overline</item>
         <!-- Customize your theme here. -->
 
-
+        <!-- Customize text views -->
         <item name="android:lineSpacingExtra">6dp</item>
         <item name="android:includeFontPadding">false</item>
 
         <item name="dividerColor">@color/gray200</item>
 
+        <item name="textColorGray">@color/gray</item>
+        <!-- Customize Inputs. -->
+        <item name="textInputStyle">@style/MyCustomOutlined</item>
+
+
+        <item name="android:textColor">?colorPrimary</item>
+
+        <!-- Customize Button. -->
+        <item name="borderlessButtonStyle">@style/Widget.App.Button.TextButton</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.App.Button.OutlinedButton</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+
+        <item name="materialCardViewStyle">@style/Widget.App.CardView</item>
+        <item name="bgCartGray">@color/gray_melow</item>
+        <item name="bgCartGreen">@color/green_melow</item>
+
+        <item name="checkboxStyle">@style/Widget.App.CheckBox</item>
     </style>
 
 
-    <
+    <style name="Widget.App.CheckBox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/color_checkbox</item>
+    </style>
+
+
+
+
 
 </resources>

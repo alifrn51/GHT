@@ -1,4 +1,4 @@
-package com.ght.chromatech.feature.auth.signUp
+package com.ght.chromatech.feature.auth.viewer
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,14 +13,14 @@ import com.sevenlearn.nikestore.common.AppFragment
 import kotlinx.android.synthetic.main.fragment_registration_two.*
 import timber.log.Timber
 
-class SignupFragment : AppFragment() {
+class ViewerFragment : AppFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_registration_one,container,false)
+        return inflater.inflate(R.layout.fragment_share_your_viewer,container,false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
